@@ -1,0 +1,14 @@
+.mat-card-container {
+    display: flex;
+    height: 90vh;
+}
+
+.mat-card {
+    width: 400px;
+    margin: auto;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}

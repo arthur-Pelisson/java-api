@@ -1,0 +1,20 @@
+<div class="mat-card-container">
+  <mat-card class="mat-card">
+      <h2>Contact List</h2>
+      
+      <div>
+        <button  mat-raised-button color="primary" (click)="add()">
+          Ajouter un contact
+        </button>
+      </div>
+      <ul class="users">
+        <li *ngFor="let user of users; let i=index;">
+          <a routerLink="/user-details/{{user.userid}}">
+            <span class="badge">{{i+1}}</span> {{user.name}}
+          </a>
+          <button  mat-raised-button class="delete" title="delete user"
+            (click)="delete(user.userid)">Delete</button>
+        </li>
+      </ul>
+  </mat-card>
+</div>

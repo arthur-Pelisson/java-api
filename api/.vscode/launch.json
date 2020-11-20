@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DB_Connection",
+            "request": "launch",
+            "mainClass": "api.DB_Connection",
+            "projectName": "api"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CRUD",
+            "request": "launch",
+            "mainClass": "api.CRUD",
+            "projectName": "api"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Application",
+            "request": "launch",
+            "mainClass": "api.Application",
+            "projectName": "api"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DemoApplication",
+            "request": "launch",
+            "mainClass": "api.api.DemoApplication",
+            "projectName": "api"
+        }
+    ]
+}

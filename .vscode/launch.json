@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "src.main.java.apijava.App",
+            "projectName": "java-api_fe12fd57"
+        }
+    ]
+}

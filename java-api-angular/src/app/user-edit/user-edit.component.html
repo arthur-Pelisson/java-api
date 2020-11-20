@@ -1,0 +1,23 @@
+<div>
+        <h2>Contact Edit</h2>
+        <div>
+          <mat-form-field>
+            <input matInput [(ngModel)]="userData.name" placeholder="User name"/>
+          </mat-form-field>
+          <br>
+          <mat-form-field>
+            <input matInput [(ngModel)]="userData.prenom" placeholder="User prenom"/>
+          </mat-form-field>
+          <br>
+          <mat-form-field>
+            <input matInput [(ngModel)]="userData.email" placeholder="User email"/>
+          </mat-form-field>
+          <br>
+          <mat-form-field>
+            <input matInput [(ngModel)]="userData.numerodetel" placeholder="User tel"/>
+          </mat-form-field>
+            <br>
+        </div>
+        <button mat-raised-button color="primary" (click)="updateUser()">Update</button>
+       <button mat-raised-button color="primary" [routerLink]="['/users']" >Contact</button>
+      </div>

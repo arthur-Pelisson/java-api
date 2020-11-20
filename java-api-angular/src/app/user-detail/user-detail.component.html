@@ -1,0 +1,15 @@
+<div *ngIf="user" class="users">
+  <h2>{{user.name | uppercase}} Details</h2>
+  <div><span>Name: </span>{{user.name}}</div>
+  <div><span>Prenom: </span>{{user.prenom}}</div>
+  <div><span>Email: </span>{{user.email}}</div>
+  <div><span>N° tel: </span>{{user.numerodetel}}</div>
+  <div>
+    <button   mat-raised-button color="primary" routerLink="/user-edit/{{user.userid}}">
+      Edit
+    </button>
+    <button  mat-raised-button color="primary" routerLink="/users">
+     Contacte
+    </button>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+<div class="mat-card-container">
+  <mat-card class="mat-card">
+    <h2>user Add</h2>
+    <div>
+      <label>user Name:
+        <input [(ngModel)]="userData.name" placeholder="user Name"/>
+      </label><br>
+      <label>user Prenom:
+        <input [(ngModel)]="userData.prenom" placeholder="user prenom"/>
+      </label><br>
+      <label>user email:
+        <input [(ngModel)]="userData.email" placeholder="user email"/>
+      </label><br>
+      <label>user no tel:
+        <input [(ngModel)]="userData.numerodetel" placeholder="user telephone"/>
+      </label><br>
+    </div>
+    <div class="button-container">
+      <button  mat-raised-button color="primary" routerLink="/users">
+        Retour
+      </button>
+      <button  mat-raised-button color="primary" (click)="addUser()">Save</button>
+    </div>
+  </mat-card>
+  </div>
